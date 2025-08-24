@@ -7,6 +7,10 @@
 #ifndef _PRIORITY_QUEUE_H_
 #define _PRIORITY_QUEUE_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /*******************************************************************************
 * Inclusions
 ******************************************************************************/
@@ -73,9 +77,21 @@ Bool_Type PriorityQueue_IsFull(void);
  */
 Bool_Type PriorityQueue_IsEmpty(void);
 
+/**
+ * @func    PriorityQueue_Destroy
+ * @brief   Free the memory allocated for the queue
+ * @param   None
+ * @reval   None
+ */
+void PriorityQueue_Destroy(void);
+
 #ifdef PRIORITY_QUEUE_TEST
 #include <stdio.h>
 void PriorityQueue_Print(void);
+#endif
+
+#ifdef __cplusplus
+}
 #endif
 
 #endif	/* _PRIORITY_QUEUE_H_ */
