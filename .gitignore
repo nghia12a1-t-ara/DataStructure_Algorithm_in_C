@@ -1,0 +1,19 @@
+# Ignore build and binary files
+*.exe
+*.o
+*.obj
+*.out
+*.log
+*.tags
+*.a
+
+# Ignore editor and OS files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore tags and other generated files
+ctags_path.txt
