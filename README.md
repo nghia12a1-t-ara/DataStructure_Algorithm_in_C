@@ -58,11 +58,3 @@ Reference: [DSA 06. Single Linked List](https://www.laptrinhdientu.com/2024/06/L
 A hash table is a data structure that maps keys to values using a hash function. It provides fast access, insertion, and deletion operations. Hash tables are widely used for implementing associative arrays, caches, and sets.
   - `HashTable.c`
 This project is intended for educational purposes, providing clear and simple implementations of classic data structures and algorithms in C. It can be used as a reference for learning, teaching, or interview preparation.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests to improve the implementations or add new data structures and algorithms.
-
-## License
-
-This project is licensed under the MIT License.
